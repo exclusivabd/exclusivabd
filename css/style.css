@@ -1,28 +1,43 @@
-.container {
-	background-color: #f4f4f6;
-	border-radius: 10px;
-	padding: 10px;
+@charset "utf-8";
+@font-face {
+	font-family: nasalization rg;
+	src: url('../font/nasalization.ttf');
 }
-p {
-		background-color: #f4f4f6;
-	border-radius: 10px;
-	padding: 10px;
+body {
+	background: #c6c7c9;
+	margin: 0;
+	padding: 0;
+	color: #444;
 }
-.roundbox {
-	border-radius: 10px;
+
+h1,h2{font-family:nasalization rg, arial; color:#4052a3}
+h3{color:#ed217c}
+
+
+.content {
+
+	padding: 10px 0;
 }
-h1, h2 {
-    font-family: nasalization rg, arial;
-    src: url('http://www.exclusivabd.com/font/nasalization.ttf');
-    color: #4052a3;
+
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
 }
-.nav-item {
-	color: black;
-	font-weight: bold;
-	font-size: 20px;
-	margin-left: 20px;
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
 }
-.rb {
-    border-left: 6px solid #ed217c;
-    padding-right: 30px;
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
 }
+
+.roundbox{margin:10px;padding:10px; background:#ffffff; -moz-border-radius: 15px; margin-bottom:15px; border-radius:15px; }
+.prodcatg{ border:1px dashed #ED217C; margin:10px; width:150px; height:150px; overflow:hidden}
+.floatright{ float:right}
+.floatleft{ float:left}
+.clear{ clear:both}

@@ -1,0 +1,16 @@
+<!-- start of navbar -->
+  <nav class="shadow-lg navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="/index.html"><img class="navbar-logo" src="/img/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto rb">
+        <li class="nav-item home"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="nav-item about"><a class="nav-link" href="/pages/about.html">About</a></li>
+        <li class="nav-item product"><a class="nav-link" href="/pages/products.html">Product</a></li>
+        <li class="nav-item associates"><a class="nav-link" href="/pages/associates.html">Associates</a></li>
+        <li class="nav-item gallery"><a class="nav-link" href="/pages/gallery.html">Gallery</a></li>
+        <li class="nav-item contact"><a class="nav-link" href="/pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav><br>
+<!-- end of navbar -->

@@ -1,0 +1,24 @@
+.container {
+	background-color: #f4f4f6;
+	border-radius: 10px;
+	padding: 10px;
+}
+}
+h1, h2 {
+    font-family: nasalization rg, arial;
+    src: url('http://www.exclusivabd.com/font/nasalization.ttf');
+    color: #4052a3;
+}
+.nav-item {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 20px;
+}
+.rb {
+    border-left: 6px solid #ed217c;
+    padding-right: 30px;
+}
+.navbar-logo {
+	/*height: 50px;*/
+}
