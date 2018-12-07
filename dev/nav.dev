@@ -4,7 +4,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto rb">
-        <li class="nav-item home"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="nav-item home"><a class="nav-link" href="../index.html">Home</a></li>
         <li class="nav-item about"><a class="nav-link" href="/pages/about.html">About</a></li>
         <li class="nav-item product"><a class="nav-link" href="/pages/products.html">Product</a></li>
         <li class="nav-item associates"><a class="nav-link" href="/pages/associates.html">Associates</a></li>
